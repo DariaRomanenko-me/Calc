@@ -42,7 +42,6 @@ public class Calc extends Compf {
     protected void nextOther(char c) {
         if (beginOther) {
             s.push(s.pop() * 10 + char2int(c));
-            //s.push(Character.getNumericValue(c));
         } else {
             s.push(char2int(c));
             beginOther = true;
