@@ -23,7 +23,7 @@ class StackInt {
 
     public final void test() {
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > 3999) {
+            if (array[i] > 3998) {
                 System.err.println("Одно из значений формулы больше 3999");
                 System.exit(0);
             }
